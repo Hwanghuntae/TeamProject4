@@ -23,7 +23,7 @@ public class TextFieldEx extends JFrame {
         c.add(closeBtn);
         c.add(new JScrollPane(ta));
         
-        setSize(300,150);
+        setSize(270,400);
         setVisible(true);
     }
 
