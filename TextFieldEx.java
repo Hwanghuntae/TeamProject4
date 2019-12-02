@@ -1,5 +1,11 @@
 import javax.swing.*;
 import java.awt.*;
+/**
+ * 여기에 MyApp 클래스 설명을 작성하십시오.
+ * 
+ * @author (작성자 이름) 
+ * @version (버전번호나 날짜)
+ */
 public class TextFieldEx extends JFrame {
     private String [] grade = {"1학년", "2학년", "3학년", "4학년"};
     private JTextArea ta = new JTextArea(7, 20);
@@ -23,7 +29,7 @@ public class TextFieldEx extends JFrame {
         c.add(closeBtn);
         c.add(new JScrollPane(ta));
         
-        setSize(300,150);
+        setSize(280,350);
         setVisible(true);
     }
 
