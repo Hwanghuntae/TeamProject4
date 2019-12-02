@@ -28,8 +28,8 @@ public class TextFieldEx extends JFrame {
         JButton closeBtn = new JButton("close");
         c.add(closeBtn);
         c.add(new JScrollPane(ta));
-        
         setSize(280,350);
+        setSize(270,400);
         setVisible(true);
     }
 
